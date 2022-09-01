@@ -128,7 +128,7 @@ endmacro()
 find_package(absl REQUIRED CONFIG)
 find_package(eigen REQUIRED)
 find_package(farmhash REQUIRED)
-find_package(fft2d REQUIRED)
+#find_package(fft2d REQUIRED)
 find_package(flatbuffers REQUIRED)
 find_package(gemmlowp REQUIRED)
 find_package(neon2sse REQUIRED)
@@ -378,7 +378,7 @@ target_link_libraries(tensorflow-lite
     absl::synchronization
     absl::variant
     farmhash
-    fft2d_fftsg2d
+#fft2d_fftsg2d
     flatbuffers
     gemmlowp
     ruy
